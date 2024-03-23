@@ -1,22 +1,30 @@
      <meta charset="utf-8" emacsmode="-*- markdown -*-"><link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/slate.css?">
 
 
+Into
+==============================================================
+Hello. I am expirimenting with [Coqui AI TTS project](https://github.com/coqui-ai/TTS).
+
+On this page I am gonna to upload my results of testing different models to get best results in voice cloning project.
+
+
 Expiriments / Results
 ==============================================================
 
 Original voice source is ["Olivia Cooke : What you don't know about me | Bazaar UK"](https://www.youtube.com/watch?v=RRxEI8uucTo) and removed back ground audio using https://vocalremover.org
 
 
-phrase: "Hi. I personally like this topic of discussion"
+inference phrase: *"Hi. I personally like this topic of discussion"*
 
-|               | 1m                                 | 1m-time | full                               | full-time |
-| ------------- | ---------------------------------- | ------- | ---------------------------------- | --------- |
-| glow_tts      | ![](EN___glow_tts___1m.wav)        |         | ![](EN___glow_tts___full.wav)      |           |
-| tacotron2-dca | ![](EN___tacotron2-dca___1m.wav)   |         | ![](EN___tacotron2-dca___full.wav) |           |
-| tacotron2-ddc | ![](EN___tacotron2-ddc___1m.wav)   |         | ![](EN___tacotron2-ddc___full.wav) |           |
-| xtts_v1       | ![](EN___xtts_v1___1m.wav)         |         | ![](EN___xtts_v1___full.wav)       |           |
-| xtts_v2       | ![](EN___xtts_v2___1m.wav)         |         | ![](EN___xtts_v2___full.wav)       |           |
-| tacotron2     | ![](EN___tacotron2___1m___0-7.wav) | 0.7     | ![](EN___tacotron2___1m___1-6.wav) | 1.6       |
+
+|               | voice input - 1 min                | Processing time - 1 min input | voice input - full audio clip      | Processing time - full audio clip input |
+| ------------- | ---------------------------------- | ----------------------------- | ---------------------------------- | --------------------------------------- |
+| glow_tts      | ![](EN___glow_tts___1m.wav)        |                               | ![](EN___glow_tts___full.wav)      |                                         |
+| tacotron2-dca | ![](EN___tacotron2-dca___1m.wav)   |                               | ![](EN___tacotron2-dca___full.wav) |                                         |
+| tacotron2-ddc | ![](EN___tacotron2-ddc___1m.wav)   |                               | ![](EN___tacotron2-ddc___full.wav) |                                         |
+| xtts_v1       | ![](EN___xtts_v1___1m.wav)         |                               | ![](EN___xtts_v1___full.wav)       |                                         |
+| xtts_v2       | ![](EN___xtts_v2___1m.wav)         |                               | ![](EN___xtts_v2___full.wav)       |                                         |
+| tacotron2     | ![](EN___tacotron2___1m___0-7.wav) | 0.7                           | ![](EN___tacotron2___1m___1-6.wav) | 1.6                                     |
 
 About
 ==============================================================
